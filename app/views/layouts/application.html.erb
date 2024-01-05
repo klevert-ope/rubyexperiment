@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Klevert</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0047AB">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag "assets/application-U1w0qw-D", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "animate", "data-turbo-track": "reload" %>
+</head>
+
+<body>
+<%= yield %>
+<div id="scrollThumb"></div>
+</body>
+</html>

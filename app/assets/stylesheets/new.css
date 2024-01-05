@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #730E15;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+section {
+    height: 100svh;
+}
+
+.s2 {
+    background: blue;
+}
+
+#scrollThumb {
+    position: fixed;
+    right: 0;
+    width: 6px;
+    height: 64px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    top: 0;
+}
+
+
+
