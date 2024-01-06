@@ -1,10 +1,12 @@
 {
-  "name": "app",
-  "private": "true",
+  "name": "rubyexperiment",
+  "version": "0.1.0",
+  "license": "ISC",
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.0-beta.2",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "gsap": "./gsap-bonus.tgz",
     "rollup": "^4.9.2"
   },
   "scripts": {

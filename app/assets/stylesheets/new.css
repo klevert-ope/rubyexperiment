@@ -1,11 +1,11 @@
 body {
-    margin: 0;
     background: #730E15;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    margin: 0;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -23,7 +23,7 @@ section {
 
 #scrollThumb {
     position: fixed;
-    right: 0;
+    right: 4px;
     width: 6px;
     height: 64px;
     background-color: goldenrod;

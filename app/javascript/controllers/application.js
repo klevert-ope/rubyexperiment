@@ -1,6 +1,5 @@
-import "@hotwired/turbo-rails";
 import { Application } from "@hotwired/stimulus";
-import "stylesheets/new";
+import "./scrollthumb";
 
 const application = Application.start();
 

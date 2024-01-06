@@ -73,3 +73,5 @@ group :test do
 end
 
 gem 'rack', '>= 1', '< 3'
+
+gem 'actionpack', '~> 7.1', '>= 7.1.2'
