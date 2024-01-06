@@ -125,3 +125,7 @@ N
 app/javascript/smoothscroll.js,9\5\95f7c041069fe8497b020a0d1d51919c8be7f944
 9
 	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
+=
+jsconfig.json,5\6\56f2d335ffa27c20b4ea310cf0214fa96f325894
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47

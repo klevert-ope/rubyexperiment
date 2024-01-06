@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "",
+    "typeRoots": [
+      "node_modules/gsap/types"
+    ],
+    "paths": {
+      "gsap": [
+        "node_modules/gsap/dist/gsap"
+      ],
+      "gsap/ScrollSmoother": [
+        "node_modules/gsap/ScrollSmoother"
+      ],
+      "gsap/ScrollTrigger": [
+        "node_modules/gsap/ScrollTrigger"
+      ]
+    }
+  }
+}
